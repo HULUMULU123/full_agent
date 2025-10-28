@@ -1,0 +1,102 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual envs ===
+.env
+.venv
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# === IDE ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Build / packaging ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Logs / coverage ===
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# === Jupyter / experiments ===
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*.ipynb_*
+notebooks/.ipynb_checkpoints
+*.ipynb
+
+# === Data / temp files ===
+data/
+*.csv
+*.tsv
+*.xls*
+*.parquet
+*.h5
+*.db
+*.sqlite*
+tmp/
+temp/
+*.log
+*.out
+
+# === ML artifacts ===
+models/
+checkpoints/
+runs/
+tensorboard/
+wandb/
+mlruns/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Config / secrets ===
+*.env
+*.ini
+*.cfg
+*.yaml
+*.yml
+secrets.json
+token.json
+api_keys.json
+credentials.json
+
+# === Project specific ===
+*.html
+*.pdf
+*.docx
+__results__/
+artifacts/
